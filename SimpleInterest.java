@@ -9,7 +9,7 @@ public class SimpleInterest
         double interest = principal * rate * time / 100;
         double finalAmount = principal + interest;
 
-        System.out.println("Interest: ₹" + interest);
-        System.out.println("Final Amount: ₹" + finalAmount);
+        System.out.println("Interest: Rs " + interest);
+        System.out.println("Final Amount: Rs " + finalAmount);
     }
 }
