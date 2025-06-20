@@ -6,6 +6,6 @@ public class SalaryTax
         double taxPercent = 20;
 
         double taxAmount = salary * taxPercent / 100;
-        System.out.println("Tax Amount: ₹" + taxAmount);
+        System.out.println("Tax Amount: RS " + taxAmount);
     }
 }
