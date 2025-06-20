@@ -1,10 +1,11 @@
-public class Assignment1_LocalVariable {
-    public static int sum(int a, int b) {
-        int result = a + b;  // local variable
-        return result;
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Sum = " + sum(5, 7));
+public class SwapTwoWithTemp
+{
+    public static void main(String[] args)
+    {
+        int a = 10, b = 20, temp;
+        temp = a;
+        a = b;
+        b = temp;
+        System.out.println("a = " + a + ", b = " + b);
     }
 }
